@@ -57516,7 +57516,7 @@
 /turf/simulated/floor/plasteel/dark,
 /area/station/public/locker)
 "hZR" = (
-/obj/machinery/computer/area_atmos/area{
+/obj/machinery/computer/shuttle/labor{
 	dir = 8
 	},
 /turf/simulated/floor/plasteel{
@@ -92673,11 +92673,10 @@
 /turf/simulated/floor/plasteel/dark,
 /area/station/security/armory/secure)
 "ubG" = (
-/obj/machinery/computer/security{
-	dir = 8;
-	network = list("SS13","Research  Outpost","Mining  Outpost")
-	},
 /obj/machinery/light/directional/east,
+/obj/machinery/computer/prisoner{
+	dir = 8
+	},
 /turf/simulated/floor/plasteel{
 	dir = 4;
 	icon_state = "darkred"
